@@ -21,7 +21,7 @@ body {
 .list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
 }
 .logo {
@@ -107,6 +107,11 @@ a {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
+/* Чем мы занимаемся */
+.directions-photo {
+  display: block;
+}
+
 /* Наша команда */
 .our-team .employee {
   font-weight: 500;
@@ -120,6 +125,14 @@ a {
   line-height: 1.19;
 }
 /* Футер */
+.footer {
+  background-color: var(--footer-bacground-color);
+}
+
+.contact .futer-item {
+  margin-top: 20px;
+}
+
 .contact {
   font-style: normal;
 }
@@ -148,4 +161,31 @@ a {
   font-size: 16px;
   line-height: 1.63;
   cursor: pointer;
+}
+/* Портфолио */
+/* Галерея */
+.list .title-works {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /* background-color: yellow; */
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.list .kind-works {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /* background-color: royalblue; */
+  font-size: 16px;
+  line-height: 1.88;
+}
+.gallery-photo {
+  display: block;
+  margin-bottom: 20px;
 }
