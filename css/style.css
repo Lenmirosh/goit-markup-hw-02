@@ -99,6 +99,9 @@ body {
   letter-spacing: 0.06em;
   color: var(--white-color);
 }
+.primary-button:hover {
+  background-color: #188ce8;
+}
 
 /* Преимущества */
 .advantage-title {
